@@ -1,0 +1,21 @@
+diff --git a/android/src/main/java/nandorojo/modules/galeria/GaleriaView.kt b/android/src/main/java/nandorojo/modules/galeria/GaleriaView.kt
+index 34a7e0d..659afd1 100644
+--- a/android/src/main/java/nandorojo/modules/galeria/GaleriaView.kt
++++ b/android/src/main/java/nandorojo/modules/galeria/GaleriaView.kt
+@@ -26,6 +26,7 @@ import com.github.iielse.imageviewer.core.Photo
+ import com.github.iielse.imageviewer.core.SimpleDataProvider
+ import com.github.iielse.imageviewer.core.Transformer
+ import com.github.iielse.imageviewer.utils.Config
++import expo.modules.kotlin.types.Enumerable
+ import expo.modules.kotlin.viewevent.EventDispatcher
+ 
+ 
+@@ -232,7 +233,7 @@ class GaleriaView(context: Context) : ViewGroup(context) {
+ 
+ }
+ 
+-enum class Theme(val value: String) {
++enum class Theme(val value: String) : Enumerable {
+     Dark("dark"),
+     Light("light");
+ 

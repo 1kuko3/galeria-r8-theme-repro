@@ -1,0 +1,3 @@
+10-28 13:09:41.162 30547 30570 I ExpoModulesCore: ✅ AppContext was initialized
+10-28 13:09:41.184 30547 30571 I ExpoModulesCore: ✅ JSI interop was installed
+10-28 13:09:41.185 30547 30571 I ExpoModulesCore: ✅ Constants were exported

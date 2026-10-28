@@ -1,0 +1,4 @@
+10-28 13:05:42.354 30268 30293 I ExpoModulesCore: ✅ AppContext was initialized
+10-28 13:05:42.375 30268 30294 I ExpoModulesCore: ✅ JSI interop was installed
+10-28 13:05:42.376 30268 30294 I ExpoModulesCore: ✅ Constants were exported
+10-28 13:05:42.426 30268 30268 E ExpoModulesCore: Enum 'Theme' should inherit from class expo.modules.kotlin.types.Enumerable.

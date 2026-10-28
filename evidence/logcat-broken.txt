@@ -1,0 +1,8 @@
+10-28 13:03:40.374 29881 29936 I ExpoModulesCore: ✅ AppContext was initialized
+10-28 13:03:40.396 29881 29937 I ExpoModulesCore: ✅ JSI interop was installed
+10-28 13:03:40.397 29881 29937 I ExpoModulesCore: ✅ Constants were exported
+10-28 13:03:40.448 29881 29881 E ExpoModulesCore: Enum 'z34' should inherit from class expo.modules.kotlin.types.Enumerable.
+10-28 13:03:40.449 29881 29881 E ExpoModulesCore: ❌ Cannot set the 'Galeria' prop on the 'nandorojo.modules.galeria.GaleriaView{8f33998 V.E...... ......I. 0,0-0,0 #8}'
+10-28 13:03:40.449 29881 29881 E ExpoModulesCore: od: Cannot set prop 'theme' on view 'class nandorojo.modules.galeria.GaleriaView'
+10-28 13:03:40.449 29881 29881 E ExpoModulesCore: → Caused by: 'light' is not present in z34 enum, it must be one of: 'Dark', 'Light'
+10-28 13:03:40.449 29881 29881 E ExpoModulesCore: 	at r30.a(r8-map-id-a6a1ccad5319702931b8c969676631a2b675407ef7f2bd2d457d134a6cd97890:92)
